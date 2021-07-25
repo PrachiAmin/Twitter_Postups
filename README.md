@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+Regarding the coding Details:
+
+The code consist of NodeJs in backend (Api's developed )
+Used Model, View Controller coding standard to complete the requirements in the assessment.
+The naming convention used in the code is self explanatory of what the code inside each folder is doing.(easy to read coding standard)
+Used database to test the sample data.
