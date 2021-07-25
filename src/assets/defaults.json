@@ -1,0 +1,76 @@
+{
+  "defaultTag": "all",
+  "defaultSort": {
+    "datePosted": -1
+  },
+  "defaultCategory": "all",
+  "feed": [
+    {
+      "name": "All Posts",
+      "value": "all"
+    },
+    {
+      "name": "",
+      "value": "",
+      "isActive": true,
+      "isCustom": true
+    }
+  ],
+  "sorts": [
+    {
+      "name": "Recently Posted",
+      "value": {
+        "datePosted": -1
+      },
+      "isActive": true
+    },
+    {
+      "name": "Most Liked",
+      "value": {
+        "likes": -1
+      }
+    },
+    {
+      "name": "Most Viewed",
+      "value": {
+        "views": -1
+      }
+    },
+    {
+      "name": "Most Commented",
+      "value": {
+        "commentsCount": -1
+      }
+    }
+  ],
+  "categories": [
+    {
+      "value": "all",
+      "name": "All",
+      "defaultForNav": true
+    },
+    {
+      "value": "text",
+      "name": "Texts",
+      "defaultForNewPost": true
+    },
+    {
+      "value": "image",
+      "name": "Images",
+      "extensions": "png, jpg, jpeg, gif, jfif"
+    },
+    {
+      "value": "video",
+      "name": "Videos",
+      "extensions": "mkv, mp4, webm"
+    },
+    {
+      "value": "audio",
+      "name": "Audios",
+      "extensions": "mp3, wma, aac"
+    }
+  ],
+  "defaultShowSecondaryNavBar": true,
+  "defaultShowSearchBtn": true,
+  "defaultShowBackBtn": false
+}
